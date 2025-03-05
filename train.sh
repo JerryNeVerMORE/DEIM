@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=0 torchrun --master_port=7777 --nproc_per_node=1 train.py -c configs/deim_dfine/deim_hgnetv2_m_visdrone.yml  --seed=42
+CUDA_VISIBLE_DEVICES=0 torchrun --master_port=7777 --nproc_per_node=1 train.py -c configs/deim_dfine/deim_hgnetv2_m_visdrone.yml  --seed=42 > log_deim_m_visdrone.txt 2>&1
